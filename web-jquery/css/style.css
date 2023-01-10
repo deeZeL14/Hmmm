@@ -1,0 +1,35 @@
+html, body{
+    background:#0145c2;
+    margin:0px;
+    padding:0px;
+    overflow:hidden; 
+    height:100%;
+    font-family: "Anton";
+}
+
+#intro #text {
+    font-size: 70px;
+    font-weight: 300;
+    width: 5.5em;
+    height: 1.5em;
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#intro #intro-button {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+#intro #intro-button #start {
+    font-size: 15px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 145px;
+    height: 35;
+    display: none;
+}
